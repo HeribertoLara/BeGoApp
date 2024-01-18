@@ -1,0 +1,26 @@
+.search{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    margin:1rem 0rem;
+    border-bottom:1px solid  var(--gray-border);
+}
+
+.search__icon{
+    grid-column: 1/1;
+    color: var(--font-white);
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    width: 2.2rem;
+    border-radius: 50%;
+    background-color: rgb(42, 40, 40);
+}
+
+.search__input{
+    grid-column: 2/6;
+    width: 90%;
+    background-color: var(--background-dark);
+    border: none;
+    height: 1.2rem;
+}
+

@@ -1,0 +1,15 @@
+:root {
+  font-family: "Open sans";
+  line-height: 1.5;
+  font-weight: 200px;
+  --background-dark: #141414;
+  background-color: var(--background-dark) ;
+  --gray-border:#3b3b3b;
+  --font-white: rgb(174, 182, 182);
+  --yellow:#FFFF00;
+  font-synthesis: none;
+  
+}
+
+
+

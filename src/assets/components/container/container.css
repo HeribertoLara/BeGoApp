@@ -1,0 +1,30 @@
+.container{
+    list-style: none;
+    color: var(--font-white);
+}
+
+.container__card{
+    border: solid 2px var(--font-white);
+    border-radius: 2rem;
+}
+
+.container__head{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container__line{
+    border-left: solid 3px  var(--font-white);
+    margin-left: 3px;
+    height: 15px;
+}
+
+.container__button{
+    background-color: var(--yellow);
+    border-radius: 2rem;
+}
+
+.container__footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

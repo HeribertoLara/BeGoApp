@@ -1,0 +1,59 @@
+@import url(../../../index.css);
+header {
+    display:  grid;
+    
+    color:var(--font-white);
+    font-size: 12;
+
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+}
+.header__arrow{
+    grid-column: 1/2;
+    padding: 1rem;
+}
+
+.header__title{
+    grid-column: 2/5;
+    font-size: 20px;
+}
+
+.header__bell{
+    grid-column: 5/6;
+}
+.menu ul{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    place-items: center;
+    font-size: rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item{
+    width: 20pxs;
+}
+
+.menu__item a{
+    color: #ffff;
+    text-decoration: none;
+    width: 20px;
+}
+
+.menu__item--selected{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, yellow 50%, var(--background-dark) 50%);
+    border-image-slice: 1;
+    border-bottom-width: 2px;
+}
+
+.menu__item--selected a{
+    color: rgb(216, 216, 38);
+    text-decoration: none;
+    
+}
